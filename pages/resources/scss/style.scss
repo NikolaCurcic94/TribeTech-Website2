@@ -1,0 +1,117 @@
+@import "../../../scss/config";
+@import "../../../scss/utilities";
+@import "../../../scss/buttons";
+@import "../../../scss/animations";
+@import "../../../scss/components/header";
+@import "../../../scss/components/footer";
+
+@font-face {
+  font-family: "Sailec";
+  src: url("../../../fonts/Sailec\ Regular.otf") format("opentype");
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sailec";
+  src: url("../../../fonts/Sailec\ Bold.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+$font-stack: "Sailec";
+
+$primary-color: #000066;
+$secondary-color: #cc6633;
+
+* {
+  font-family: $font-stack;
+  color: #ffffff;
+  box-sizing: border-box;
+}
+
+/***********************************Main**********************************/
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  text-align: center;
+  //height: calc(100vh - 104px - 37px);
+  min-height: 86vh;
+
+  background-image: url("../../../img/dots-hero-0110\ -\ rotirani.svg");
+  background-size: 200%;
+  background-position: 8% 10%;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+
+  @media (max-width: 1200px) {
+    background-size: 300%;
+  }
+
+  @media (max-width: 768px) {
+    background-position: 7% 8%;
+    background-size: 400%;
+  }
+
+  @media (max-width: 550px) {
+    background-image: url("../../../img/dots-hero.svg");
+    background-position: 6% 5%;
+    //height: 90vh;
+    background-size: 100%;
+  }
+
+  @media (max-width: 450px) {
+    //background-image: url("../img/dots-hero.svg");
+    //height: 85vh;
+    background-size: 100%;
+    background-position: 6% 23%;
+    background-size: cover;
+  }
+}
+
+.resourses-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  .resourses-box {
+    width: 400px;
+
+    padding: 20px;
+    background-color: $light-orange-color;
+    border-radius: 10px;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    color: $primary-color;
+    font-size: 18px;
+    font-weight: 900;
+
+    @media (max-width: 550px) {
+      width: 300px;
+    }
+
+    // a {
+    //   color: $primary-color;
+    // }
+
+    // a {
+    //   color: $primary-color;
+    // }
+  }
+
+  .resourses-box:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+}

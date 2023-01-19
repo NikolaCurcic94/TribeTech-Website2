@@ -1,0 +1,56 @@
+/**********************************Footer********************************/
+
+footer {
+  width: 100%;
+  overflow: hidden;
+  padding: 13px 0;
+  background-color: $secondary-color;
+
+  @media (max-width: 450px) {
+    padding: 6px 0;
+  }
+
+  p {
+    color: $primary-color;
+    font-size: 20px;
+    font-weight: 800;
+  }
+
+  .footer__nav {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
+    }
+
+    .footer__list {
+      @media (max-width: 768px) {
+        display: none;
+      }
+    }
+  }
+
+  ul {
+    display: flex;
+    gap: 20px;
+
+    li {
+      color: $primary-color;
+      font-weight: 900;
+      font-size: 20px;
+    }
+  }
+
+  .footer__icon {
+    width: 30px;
+    filter: invert(10%) sepia(53%) saturate(7434%) hue-rotate(243deg)
+      brightness(59%) contrast(124%);
+
+    @media (max-width: 450px) {
+      width: 25px;
+    }
+  }
+}

@@ -1,0 +1,59 @@
+/**********************************Scroll Tracker*******************************/
+
+.scroll-bar {
+  position: sticky;
+  left: 0;
+  top: 67px;
+  width: 100%;
+  background-color: #1a086d;
+  z-index: 25;
+  overflow: hidden;
+
+  @media (max-width: 1100px) {
+    //top: 60px;
+    // top: 85px;
+  }
+
+  @media (max-width: 768px) {
+    top: 65px;
+  }
+}
+.scroll-bar-inner {
+  position: relative;
+  width: 0%;
+  background-color: $secondary-color;
+  font-size: 5px;
+  color: transparent;
+}
+
+/**********************************Navigation Dots*******************************/
+
+.active-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: $secondary-color;
+  position: absolute;
+  top: 30px;
+  //visibility: hidden;
+  transition: all 1s ease-in-out;
+  opacity: 0;
+  box-shadow: 120px 80px 40px 20px rgb(225, 233, 233);
+}
+
+.active-dot:hover {
+  opacity: 1;
+  box-shadow: 120px 80px 40px 20px rgb(225, 233, 233);
+}
+
+.active-dot--current {
+  //visibility: visible;
+  opacity: 1;
+  box-shadow: 120px 80px 40px 20px #0ff;
+}
+
+.circle--mooved {
+  transform: scale(1.1);
+}
+
+/**********************************Sections Animation*******************************/

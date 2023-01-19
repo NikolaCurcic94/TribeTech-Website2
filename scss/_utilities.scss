@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1300px;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  justify-content: space-around;
+  padding: 0 30px;
+}
+@media (max-width: 768px) {
+  .wrapper {
+    flex-wrap: wrap;
+  }
+}

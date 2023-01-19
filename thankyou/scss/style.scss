@@ -1,0 +1,59 @@
+@import "../../scss/config";
+@font-face {
+  font-family: "Sailec";
+  src: url("../fonts/Sailec\ Regular.otf") format("opentype");
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sailec";
+  src: url("../fonts/Sailec\ Bold.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+* {
+  font-family: "Sailec", sans-serif;
+  color: #000066;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 40px 0;
+  background-color: #000066;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.thank__you__modal {
+  padding: 30px;
+  width: 500px;
+  height: 300px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  h1 {
+    font-size: 40px;
+    font-weight: 900;
+  }
+  p {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  a {
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #cc6633;
+    color: #000066;
+    border: none;
+    font-size: 20px;
+    font-weight: 900;
+  }
+}

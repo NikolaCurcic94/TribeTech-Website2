@@ -1,0 +1,152 @@
+.button {
+  padding: 11px;
+  border-radius: 5px;
+  background-color: $secondary-color;
+  color: $primary-color;
+  border: none;
+  font-size: 25px;
+  font-weight: 900;
+  position: relative;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+
+  @media (max-width: 480px) {
+    font-size: 18px;
+    width: 140px;
+  }
+}
+
+.button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+/************************************Navigation Button******************************/
+
+.nav__button {
+  width: 160px;
+  padding: 8px;
+  font-size: 18px;
+
+  @media (max-width: 1000px) {
+    display: none;
+  }
+}
+
+.nav__button:hover {
+  transform: none;
+}
+
+/************************************Hero Button******************************/
+
+// .hero__button:hover {
+//   transform: scale(1.1);
+// }
+/************************************Menu Button******************************/
+
+.menu__button {
+  display: none;
+  width: 39px;
+  // height: 19px;
+  filter: invert(86%) sepia(10%) saturate(2382%) hue-rotate(320deg)
+    brightness(102%) contrast(101%);
+
+  @media (max-width: 768px) {
+    display: block;
+  }
+}
+
+.close__button {
+  //display: none;
+  width: 39px;
+  filter: invert(86%) sepia(10%) saturate(2382%) hue-rotate(320deg)
+    brightness(102%) contrast(101%);
+}
+
+/************************************Call Us*******************************************/
+
+.call__us__button {
+  padding: 5px 20px;
+  border-radius: 5px;
+  position: relative;
+  //width: 180px;
+  color: $primary-color;
+  border: none;
+  font-weight: 700;
+  position: relative;
+  background-color: #5fcc47;
+  font-size: 25px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+
+  // animation: pulsing 1s infinite ease-in-out;
+
+  // transition: all 2s;
+
+  @media (max-width: 480px) {
+    font-size: 18px;
+    //width: 120px;
+  }
+}
+
+// @keyframes pulsing {
+//   0% {
+//     box-shadow: 0 0 0 0#5fcc47;
+//   }
+
+//   100% {
+//     box-shadow: 0 0 0 10px #5fcc4700;
+//   }
+// }
+
+// .call__us__button:hover {
+//   transition-duration: 0.1s;
+//   background-color: #528f45;
+// }
+
+// .call__us__button::after {
+//   content: "";
+//   display: block;
+//   position: absolute;
+//   border-radius: 4em;
+//   left: 0;
+//   top: 0;
+//   width: 100%;
+//   height: 100%;
+//   opacity: 0;
+//   transition: all 0.5s;
+//   box-shadow: 0 0 10px 40px white;
+// }
+
+// .call__us__button:active::after {
+//   box-shadow: 0 0 0 0#5fcc47;
+//   position: absolute;
+//   border-radius: 4em;
+//   left: 0;
+//   top: 0;
+//   opacity: 1;
+//   transition: 0s;
+// }
+
+// .call__us__button:active {
+//   top: 1;
+// }
+
+.form__button {
+  width: 230px;
+
+  @media (max-width: 550px) {
+    width: 190px;
+    font-size: 18px;
+  }
+
+  @media (max-width: 450px) {
+    width: 165px;
+    font-size: 15px;
+    padding: 8px;
+  }
+}

@@ -1,0 +1,256 @@
+/**********************************RESTART*******************************/
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+section,
+main {
+  display: block;
+}
+
+audio:not([controls]) {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+::-moz-selection,
+::selection {
+  background: #000;
+  color: #fff;
+  text-shadow: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:focus,
+a:hover,
+a:active {
+  outline: none;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+blockquote {
+  margin: 0;
+}
+
+dfn {
+  font-style: italic;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+ins {
+  background: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+pre,
+code,
+kbd,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+pre {
+  white-space: pre;
+  word-wrap: break-word;
+}
+
+q {
+  quotes: none;
+}
+
+q::before,
+q::after {
+  content: "";
+}
+
+small {
+  font-size: 85%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+nav ul,
+nav ol,
+ul,
+li {
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  vertical-align: middle;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+i {
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+/**********************************Global Configuration********************************/
+@font-face {
+  font-family: "Sailec";
+  src: url("../fonts/Sailec Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Sailec";
+  src: url("../fonts/Sailec Bold.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+* {
+  font-family: "Sailec";
+  color: #ffffff;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1em;
+  line-height: 1.35;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  background-color: #0a0a4c;
+}
+
+@font-face {
+  font-family: "Sailec";
+  src: url("../fonts/Sailec Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Sailec";
+  src: url("../fonts/Sailec Bold.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+* {
+  font-family: "Sailec", sans-serif;
+  color: #000066;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 40px 0;
+  background-color: #000066;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thank__you__modal {
+  padding: 30px;
+  width: 500px;
+  height: 300px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.thank__you__modal h1 {
+  font-size: 40px;
+  font-weight: 900;
+}
+.thank__you__modal p {
+  font-size: 20px;
+  font-weight: 600;
+}
+.thank__you__modal a {
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #cc6633;
+  color: #000066;
+  border: none;
+  font-size: 20px;
+  font-weight: 900;
+}/*# sourceMappingURL=style.css.map */
