@@ -64,7 +64,7 @@
 }
 
 .section__paragraph {
-  font-size: 18px;
+  font-size: 20px;
   text-align: left;
   line-height: 30px;
   max-width: 590px; //word-wrap: break-word;
@@ -74,12 +74,12 @@
   //hyphens: auto;
   //text-indent: 40px;
   @media (max-width: 768px) {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 26px;
   }
 
   @media (max-width: 480px) {
-    font-size: 15px;
+    font-size: 16px;
   }
 }
 
@@ -123,9 +123,9 @@ main {
   border-bottom: 1px solid rgb(48, 52, 54);
   display: flex;
   justify-content: center;
-  background-image: url("../img/dots-hero-0110\ -\ rotirani.svg");
-  background-size: 200%;
-  background-position: 8% 10%;
+  background-image: url("../img/industry-report-hero.svg");
+  background-size: 100%;
+  background-position: 8% 0%;
   background-repeat: no-repeat;
   background-origin: border-box;
   animation: hero-scale;
@@ -142,22 +142,30 @@ main {
     }
   }
 
-  @media (max-width: 1200px) {
+  @media (max-width: 1550px) {
     height: 85vh;
-    background-size: 300%;
+    background-size: 105%;
+  }
+
+  @media (max-width: 1400px) {
+    //height: 85vh;
+    background-size: 130%;
+  }
+
+  @media (max-width: 1200px) {
+    //height: 85vh;
+    background-size: 142%;
+  }
+
+  @media (max-width: 1000px) {
+    //height: 85vh;
+    background-size: cover;
   }
 
   @media (max-width: 768px) {
     // height: 70vh;
-    background-position: 7% 8%;
-    background-size: 400%;
+    //background-position: 7% 8%;
   }
-
-  // @media (max-width: 768px) {
-  //   background-image: url("../img/dots-hero.svg");
-  //   background-position: 47% 100%;
-  //   //height: 90vh;
-  // }
 
   @media (max-width: 550px) {
     height: 60vh;
@@ -299,11 +307,15 @@ main {
   }
 
   li {
-    font-size: 18px;
+    font-size: 20px;
     padding: 10px;
 
     @media (max-width: 768px) {
-      font-size: 15px;
+      font-size: 18px;
+    }
+
+    @media (max-width: 480px) {
+      font-size: 16px;
     }
   }
 

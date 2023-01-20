@@ -610,20 +610,20 @@ footer .footer__icon {
 }
 
 .section__paragraph {
-  font-size: 18px;
+  font-size: 20px;
   text-align: left;
   line-height: 30px;
   max-width: 590px;
 }
 @media (max-width: 768px) {
   .section__paragraph {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 26px;
   }
 }
 @media (max-width: 480px) {
   .section__paragraph {
-    font-size: 15px;
+    font-size: 16px;
   }
 }
 
@@ -665,9 +665,9 @@ main {
   border-bottom: 1px solid rgb(48, 52, 54);
   display: flex;
   justify-content: center;
-  background-image: url("../img/dots-hero-0110 - rotirani.svg");
-  background-size: 200%;
-  background-position: 8% 10%;
+  background-image: url("../img/industry-report-hero.svg");
+  background-size: 100%;
+  background-position: 8% 0%;
   background-repeat: no-repeat;
   background-origin: border-box;
   animation: hero-scale;
@@ -682,16 +682,25 @@ main {
     transform: scale(1);
   }
 }
-@media (max-width: 1200px) {
+@media (max-width: 1550px) {
   .hero__section {
     height: 85vh;
-    background-size: 300%;
+    background-size: 105%;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 1400px) {
   .hero__section {
-    background-position: 7% 8%;
-    background-size: 400%;
+    background-size: 130%;
+  }
+}
+@media (max-width: 1200px) {
+  .hero__section {
+    background-size: 142%;
+  }
+}
+@media (max-width: 1000px) {
+  .hero__section {
+    background-size: cover;
   }
 }
 @media (max-width: 550px) {
@@ -824,12 +833,17 @@ main {
   }
 }
 .if__you__are li {
-  font-size: 18px;
+  font-size: 20px;
   padding: 10px;
 }
 @media (max-width: 768px) {
   .if__you__are li {
-    font-size: 15px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 480px) {
+  .if__you__are li {
+    font-size: 16px;
   }
 }
 .if__you__are .button__and__link__wrapper {
