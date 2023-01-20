@@ -625,6 +625,11 @@ main {
   flex-direction: column;
   justify-content: space-between;
   gap: 100px;
+  background-image: url("../../../img/industry-report-hero.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-attachment: fixed;
 }
 @media (max-width: 550px) {
   .blog__boxes__section {
