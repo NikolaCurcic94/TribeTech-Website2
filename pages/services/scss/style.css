@@ -649,35 +649,24 @@ main {
   justify-content: center;
   align-items: center;
   min-height: 86vh;
-  background-image: url("../../../img/dots-hero-0110 - rotirani.svg");
-  background-size: 200%;
-  background-position: 8% 10%;
+  background-image: url("../../../img/industry-report-hero.svg");
+  background-size: cover;
   background-repeat: no-repeat;
   background-origin: border-box;
-}
-@media (max-width: 1200px) {
-  main {
-    background-size: 300%;
-  }
-}
-@media (max-width: 768px) {
-  main {
-    background-position: 7% 8%;
-    background-size: 400%;
-  }
+  background-attachment: fixed;
 }
 @media (max-width: 550px) {
   main {
     background-image: url("../../../img/dots-hero.svg");
-    background-position: 6% 5%;
+    background-position: 6% 0%;
     background-size: 100%;
   }
 }
 @media (max-width: 450px) {
   main {
     background-size: 100%;
-    background-position: 6% 23%;
-    background-size: cover;
+    background-position: 6% 0%;
+    background-size: contain;
   }
 }
 

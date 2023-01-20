@@ -43,24 +43,17 @@ main {
   //height: calc(100vh - 104px - 37px);
   min-height: 86vh;
 
-  background-image: url("../../../img/dots-hero-0110\ -\ rotirani.svg");
-  background-size: 200%;
-  background-position: 8% 10%;
+  background-image: url("../../../img/industry-report-hero.svg");
+  background-size: cover;
+  //background-position: 8% 0%;
   background-repeat: no-repeat;
   background-origin: border-box;
-
-  @media (max-width: 1200px) {
-    background-size: 300%;
-  }
-
-  @media (max-width: 768px) {
-    background-position: 7% 8%;
-    background-size: 400%;
-  }
+  background-attachment: fixed;
 
   @media (max-width: 550px) {
+    //height: 60vh;
     background-image: url("../../../img/dots-hero.svg");
-    background-position: 6% 5%;
+    background-position: 6% 0%;
     //height: 90vh;
     background-size: 100%;
   }
@@ -69,8 +62,8 @@ main {
     //background-image: url("../img/dots-hero.svg");
     //height: 85vh;
     background-size: 100%;
-    background-position: 6% 23%;
-    background-size: cover;
+    background-position: 6% 0%;
+    background-size: contain;
   }
 }
 
