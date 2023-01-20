@@ -707,7 +707,7 @@ main {
   .hero__section {
     height: 60vh;
     background-image: url("../img/dots-hero.svg");
-    background-position: 6% 5%;
+    background-position: 6% 0%;
     height: 90vh;
     background-size: 100%;
   }
@@ -716,7 +716,7 @@ main {
   .hero__section {
     height: 85vh;
     background-size: 100%;
-    background-position: 6% 23%;
+    background-position: 6% 0%;
     background-size: cover;
   }
 }

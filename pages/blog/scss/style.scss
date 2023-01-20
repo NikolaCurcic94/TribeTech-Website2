@@ -34,12 +34,12 @@ $font-stack: "Sailec";
 /***********************************Main**********************************/
 
 main {
-  background-image: url("../../../img/industry-report-hero.svg");
-  background-size: cover;
-  //background-position: 8% 0%;
-  background-repeat: no-repeat;
-  background-origin: border-box;
-  background-attachment: fixed;
+  // background-image: url("../../../img/industry-report-hero.svg");
+  // background-size: cover;
+  // //background-position: 8% 0%;
+  // background-repeat: no-repeat;
+  // background-origin: border-box;
+  // background-attachment: fixed;
   //padding-top: 170px;
   text-align: center;
 }
@@ -53,6 +53,22 @@ main {
   flex-direction: column;
   justify-content: space-between;
   gap: 100px;
+
+  @media (max-width: 550px) {
+    //height: 60vh;
+    background-image: url("../../../img/dots-hero.svg");
+    background-position: 6% 0%;
+    //height: 90vh;
+    background-size: 100%;
+  }
+
+  @media (max-width: 450px) {
+    //background-image: url("../img/dots-hero.svg");
+    //height: 85vh;
+    background-size: 100%;
+    background-position: 6% 0%;
+    background-size: contain;
+  }
 }
 .blogs__container {
   display: flex;
