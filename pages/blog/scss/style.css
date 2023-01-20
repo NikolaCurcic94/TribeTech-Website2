@@ -686,6 +686,9 @@ main {
   color: #ffffff;
   border-radius: 10px;
 }
+.blogs__container .blog__box .jump--p {
+  font-weight: 900;
+}
 .blogs__container .blog__container-box:hover {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
