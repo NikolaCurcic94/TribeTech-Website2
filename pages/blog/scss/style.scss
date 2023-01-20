@@ -108,9 +108,9 @@ main {
   @media (max-width: 450px) {
     //background-image: url("../img/dots-hero.svg");
     height: 85vh;
-    background-size: 100%;
-    background-position: 6% 23%;
-    background-size: cover;
+    //background-size: 100%;
+    background-position: 0% 0%;
+    background-size: contain;
   }
 }
 

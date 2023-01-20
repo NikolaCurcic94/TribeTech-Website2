@@ -649,9 +649,8 @@ footer .footer__icon {
 @media (max-width: 450px) {
   .hero__section {
     height: 85vh;
-    background-size: 100%;
-    background-position: 6% 23%;
-    background-size: cover;
+    background-position: 0% 0%;
+    background-size: contain;
   }
 }
 
