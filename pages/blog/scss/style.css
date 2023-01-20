@@ -714,6 +714,11 @@ main {
   margin: 100px auto 150px;
   text-align: left;
 }
+@media (max-width: 768px) {
+  .blog__section .blog__heading {
+    margin: 80px auto 50px;
+  }
+}
 .blog__section p {
   max-width: 800px;
   font-size: 20px;

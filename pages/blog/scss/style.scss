@@ -146,9 +146,9 @@ main {
     margin: 100px auto 150px;
     text-align: left;
 
-    // @media (max-width: 768px) {
-    //   margin: 70px auto 40px;
-    // }
+    @media (max-width: 768px) {
+      margin: 80px auto 50px;
+    }
   }
 
   p {
