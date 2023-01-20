@@ -660,15 +660,15 @@ main {
 @media (max-width: 550px) {
   main {
     background-image: url("../../../img/dots-hero.svg");
-    background-position: 6% 0%;
+    background-position: 0% -77%;
     background-size: 100%;
+    background-size: cover;
   }
 }
 @media (max-width: 450px) {
   main {
-    background-size: 100%;
-    background-position: 6% 0%;
     background-size: contain;
+    background-position: 6% 70%;
   }
 }
 

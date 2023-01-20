@@ -644,17 +644,6 @@ footer .footer__icon {
 /***********************************Main**********************************/
 main {
   text-align: center;
-}
-
-/***********************************Blogs-Boxes-Section**********************************/
-.blog__boxes__section {
-  padding: 180px 30px 120px;
-  border-bottom: 1px solid rgb(182, 182, 182);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 100px;
   background-image: url("../../../img/industry-report-hero.svg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -662,18 +651,29 @@ main {
   background-attachment: fixed;
 }
 @media (max-width: 550px) {
-  .blog__boxes__section {
+  main {
     background-image: url("../../../img/dots-hero.svg");
-    background-position: 6% 0%;
+    background-position: 0% -77%;
     background-size: 100%;
+    background-size: cover;
   }
 }
 @media (max-width: 450px) {
-  .blog__boxes__section {
-    background-size: 100%;
-    background-position: 6% 0%;
+  main {
     background-size: contain;
+    background-position: 6% 70%;
   }
+}
+
+/***********************************Blogs-Boxes-Section**********************************/
+.blog__boxes__section {
+  padding: 120px 30px 120px;
+  border-bottom: 1px solid rgb(182, 182, 182);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 100px;
 }
 
 .blogs__container {
@@ -681,7 +681,7 @@ main {
   align-items: center;
   text-align: center;
   justify-content: center;
-  gap: 10px;
+  gap: 40px;
 }
 @media (max-width: 768px) {
   .blogs__container {

@@ -53,17 +53,18 @@ main {
   @media (max-width: 550px) {
     //height: 60vh;
     background-image: url("../../../img/dots-hero.svg");
-    background-position: 6% 0%;
+    background-position: 0% -77%;
     //height: 90vh;
     background-size: 100%;
+    background-size: cover;
   }
 
   @media (max-width: 450px) {
     //background-image: url("../img/dots-hero.svg");
     //height: 85vh;
-    background-size: 100%;
-    background-position: 6% 0%;
     background-size: contain;
+    background-position: 6% 70%;
+    //background-size: cover;
   }
 }
 
