@@ -197,7 +197,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
-  background-color: #0a0a4c;
+  background-color: #0c0c52;
 }
 
 .wrapper {
@@ -220,7 +220,7 @@ body {
   padding: 11px;
   border-radius: 5px;
   background-color: #cc6633;
-  color: #0a0a4c;
+  color: #0c0c52;
   border: none;
   font-size: 25px;
   font-weight: 900;
@@ -282,7 +282,7 @@ body {
   padding: 5px 20px;
   border-radius: 5px;
   position: relative;
-  color: #0a0a4c;
+  color: #0c0c52;
   border: none;
   font-weight: 700;
   position: relative;
@@ -377,7 +377,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 20;
-  background-color: #0a0a4c;
+  background-color: #0c0c52;
 }
 @media (max-width: 768px) {
   .header {
@@ -554,7 +554,7 @@ footer {
   }
 }
 footer p {
-  color: #0a0a4c;
+  color: #0c0c52;
   font-size: 20px;
   font-weight: 800;
 }
@@ -579,7 +579,7 @@ footer ul {
   gap: 20px;
 }
 footer ul li {
-  color: #0a0a4c;
+  color: #0c0c52;
   font-weight: 900;
   font-size: 20px;
 }
@@ -1120,7 +1120,7 @@ main {
 .stay__in__touch__section form .lets__talk__paragraph {
   font-size: 40px;
   font-weight: 900;
-  color: #0a0a4c;
+  color: #0c0c52;
 }
 @media (max-width: 450px) {
   .stay__in__touch__section form .lets__talk__paragraph {
@@ -1142,7 +1142,7 @@ main {
 .stay__in__touch__section form .message .message__label {
   justify-self: center;
   padding-bottom: 20px;
-  color: #0a0a4c;
+  color: #0c0c52;
 }
 .stay__in__touch__section form .message .message__input {
   padding: 10px;
@@ -1169,7 +1169,7 @@ main {
   }
 }
 .stay__in__touch__section form h2 {
-  color: #0a0a4c;
+  color: #0c0c52;
   font-size: 30px;
 }
 @media (max-width: 550px) {
@@ -1217,7 +1217,7 @@ main {
   background-color: rgb(230, 230, 230);
   font-size: 17px;
   font-weight: 700;
-  color: #0a0a4c;
+  color: #0c0c52;
 }
 @media (max-width: 550px) {
   .stay__in__touch__section form input {
@@ -1233,7 +1233,7 @@ main {
   }
 }
 .stay__in__touch__section form .input__class:focus {
-  box-shadow: 0 0 3pt 2pt #0a0a4c;
+  box-shadow: 0 0 3pt 2pt #0c0c52;
   border: none;
   border-radius: 2px;
   outline: none;
