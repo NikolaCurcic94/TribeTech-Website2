@@ -366,7 +366,31 @@ body {
   transform: scale(1.1);
 }
 
-/**********************************Sections Animation*******************************/
+/**********************************Button Slide*******************************/
+.button__slide__right::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-color: rgb(91, 168, 168);
+  transition: transform 300ms ease-in-out;
+  transform: scaleX(0);
+  transform-origin: left;
+  border-radius: 2px;
+}
+
+.button__slide__right:hover:before,
+.button__slide__right:hover:focus::before {
+  transform: scaleX(1);
+}
+
+.button__slide__right {
+  z-index: 1;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -677,7 +701,7 @@ main {
   display: flex;
   flex-direction: column;
   padding: 20px;
-  gap: 10px;
+  gap: 40px;
   justify-content: flex-end;
   align-items: flex-start;
   text-align: left;
@@ -688,6 +712,10 @@ main {
 }
 .blogs__container .blog__box .jump--p {
   font-weight: 900;
+  border: 3px solid #0c0c52;
+  border-radius: 5px;
+  padding: 8px;
+  position: relative;
 }
 .blogs__container .blog__container-box:hover {
   -webkit-transform: scale(1.1);
