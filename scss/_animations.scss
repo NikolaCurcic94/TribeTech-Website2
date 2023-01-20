@@ -78,11 +78,14 @@
 .button__slide__right:hover:before,
 .button__slide__right:hover:focus::before {
   transform: scaleX(1);
-
-  //border-radius: 5px;
-  //opacity: 1;
 }
 .button__slide__right {
   z-index: 1;
+  transition: color 300ms ease-in-out;
   // border-radius: 5px;
+}
+
+.button__slide__right:hover,
+.button__slide__right:hover:focus {
+  color: $primary-color;
 }

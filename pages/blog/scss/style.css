@@ -389,6 +389,12 @@ body {
 
 .button__slide__right {
   z-index: 1;
+  transition: color 300ms ease-in-out;
+}
+
+.button__slide__right:hover,
+.button__slide__right:hover:focus {
+  color: #0c0c52;
 }
 
 .header {
