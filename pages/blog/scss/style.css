@@ -645,6 +645,7 @@ main {
   display: flex;
   align-items: center;
   text-align: center;
+  justify-content: center;
   gap: 10px;
 }
 @media (max-width: 768px) {
