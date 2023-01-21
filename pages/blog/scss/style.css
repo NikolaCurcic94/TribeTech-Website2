@@ -789,6 +789,12 @@ main {
     min-height: 70vh;
   }
 }
+@media (max-width: 550px) {
+  .blog__boxes__section {
+    padding: 40px 30px 40px;
+    gap: 20px;
+  }
+}
 
 .blogs__container .blog__box {
   padding: 20px;
