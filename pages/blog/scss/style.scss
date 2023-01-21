@@ -96,6 +96,11 @@ main {
     min-height: 70vh;
   }
 
+  .main__heading {
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
   // @media (max-width: 550px) {
   //   //padding: 40px 30px 40px;
   //   gap: 20px;

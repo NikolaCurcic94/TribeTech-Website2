@@ -789,6 +789,11 @@ main {
     min-height: 70vh;
   }
 }
+@media (max-width: 768px) {
+  .blog__boxes__section .main__heading {
+    display: none;
+  }
+}
 
 .blogs__container .blog__box {
   padding: 20px;
