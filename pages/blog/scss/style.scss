@@ -134,6 +134,37 @@ main {
   background-color: rgb(62 138 134);
 }
 
+.swipe__paragrpah__and__arrow__wrapper {
+  @media (min-width: 769px) {
+    display: none;
+  }
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 10px;
+  .swipe__paragrpah {
+    color: #ffffff;
+  }
+
+  .right__arrow {
+    width: 50px;
+    //animation: bounce 0.9 none ease-in-out infinite;
+    //transition: all ease-in-out;
+  }
+
+  // @keyframes bounce {
+  //   0% {
+  //     transform: translateX(0);
+  //   }
+
+  //   100% {
+  //     transform: translateX(20px);
+  //   }
+  // }
+}
+
 /***********************************Blogs-Boxes-Section**********************************/
 
 .blog__section {
