@@ -643,6 +643,8 @@ footer .footer__icon {
 
 /***********************************Main**********************************/
 main {
+  position: relative;
+  overflow: hidden;
   text-align: center;
   background-image: url("../../../img/industry-report-hero.svg");
   background-size: cover;
@@ -653,8 +655,7 @@ main {
 @media (max-width: 550px) {
   main {
     background-image: url("../../../img/dots-hero.svg");
-    background-position: 0% -77%;
-    background-size: 100%;
+    background-position: top left;
     background-size: cover;
   }
 }
@@ -667,6 +668,7 @@ main {
 
 /***********************************Blogs-Boxes-Section**********************************/
 .blog__boxes__section {
+  overflow: hidden;
   padding: 120px 30px 120px;
   border-bottom: 1px solid rgb(182, 182, 182);
   min-height: 100vh;
@@ -674,6 +676,12 @@ main {
   flex-direction: column;
   justify-content: space-between;
   gap: 100px;
+}
+@media (max-width: 768px) {
+  .blog__boxes__section {
+    padding-top: 80px;
+    gap: 60px;
+  }
 }
 
 .blogs__container {
