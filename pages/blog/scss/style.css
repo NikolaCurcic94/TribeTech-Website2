@@ -648,21 +648,18 @@ main {
   text-align: center;
   background-image: url("../../../img/industry-report-hero.svg");
   background-size: cover;
-  background-repeat: no-repeat;
   background-origin: border-box;
-  background-attachment: fixed;
 }
 @media (max-width: 550px) {
   main {
     background-image: url("../../../img/dots-hero.svg");
-    background-position: top left;
+    background-position: 6% 0%;
     background-size: 100%;
   }
 }
 @media (max-width: 450px) {
   main {
-    background-size: 100%;
-    background-position: 6% 70%;
+    background-position: 6% 0%;
   }
 }
 

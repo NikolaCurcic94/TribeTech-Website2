@@ -41,25 +41,21 @@ main {
   background-image: url("../../../img/industry-report-hero.svg");
   background-size: cover;
   //background-position: 8% 0%;
-  background-repeat: no-repeat;
+  //background-repeat: no-repeat;
   background-origin: border-box;
-  background-attachment: fixed;
+  //background-attachment: fixed;
 
   @media (max-width: 550px) {
     //height: 60vh;
     background-image: url("../../../img/dots-hero.svg");
     // background-position: 0% -77%;
-    background-position: top left;
-    //height: 90vh;
-    //background-size: 100%;
+    background-position: 6% 0%;
+
     background-size: 100%;
   }
 
   @media (max-width: 450px) {
-    //background-image: url("../img/dots-hero.svg");
-    //height: 85vh;
-    background-size: 100%;
-    background-position: 6% 70%;
+    background-position: 6% 0%;
     //background-size: cover;
   }
 }
