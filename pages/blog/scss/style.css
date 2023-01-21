@@ -647,7 +647,9 @@ main {
   overflow: hidden;
   text-align: center;
   background-image: url("../../../img/industry-report-hero.svg");
-  background-size: cover;
+  background-size: 100%;
+  background-position: 8% 0%;
+  background-repeat: no-repeat;
   background-origin: border-box;
 }
 @media (max-width: 550px) {
@@ -676,7 +678,7 @@ main {
 }
 @media (max-width: 768px) {
   .blog__boxes__section {
-    padding-top: 80px;
+    padding: 80px 30px 40px;
     gap: 60px;
   }
 }

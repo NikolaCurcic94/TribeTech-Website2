@@ -39,11 +39,10 @@ main {
   text-align: center;
 
   background-image: url("../../../img/industry-report-hero.svg");
-  background-size: cover;
-  //background-position: 8% 0%;
-  //background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 8% 0%;
+  background-repeat: no-repeat;
   background-origin: border-box;
-  //background-attachment: fixed;
 
   @media (max-width: 550px) {
     //height: 60vh;
@@ -72,7 +71,7 @@ main {
   gap: 100px;
 
   @media (max-width: 768px) {
-    padding-top: 80px;
+    padding: 80px 30px 40px;
     gap: 60px;
   }
 }
