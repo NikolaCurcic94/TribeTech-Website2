@@ -89,3 +89,99 @@
 .button__slide__right:hover:focus {
   color: $primary-color;
 }
+
+/**********************************Swiper*******************************/
+/*****************Smaller devices******************/
+.mySwiper--smaller--devices {
+  @media (min-width: 769px) {
+    display: none;
+  }
+  // margin: 100px auto;
+  max-width: 280px;
+  //height: 240px;
+
+  .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    text-align: left;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .swiper-slide:nth-child(1n) {
+    background-color: rgb(206, 17, 17);
+  }
+
+  .swiper-slide:nth-child(2n) {
+    background-color: rgb(0, 140, 255);
+  }
+
+  .swiper-slide:nth-child(3n) {
+    background-color: rgb(10, 184, 111);
+  }
+}
+
+/*****************Bigger devices********************/
+
+.mySwiper--bigger--devices {
+  @media (max-width: 768px) {
+    display: none;
+  }
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+
+  .swiper-pagination {
+    position: relative;
+  }
+
+  .swiper-slide {
+    padding: 20px;
+    gap: 25px;
+
+    height: 430px;
+
+    color: #ffffff;
+    border-radius: 10px;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    height: 400px;
+
+    .jump--p {
+      font-weight: 900;
+      border: 3px solid $primary-color;
+      border-radius: 5px;
+      padding: 8px;
+      position: relative;
+    }
+  }
+
+  .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    text-align: left;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+}

@@ -49,20 +49,37 @@ main {
   background-repeat: no-repeat;
   background-origin: border-box;
 
-  @media (max-width: 550px) {
+  @media (max-width: 1550px) {
+    //height: 85vh;
+    background-size: 105%;
+  }
+
+  @media (max-width: 1400px) {
+    //height: 85vh;
+    background-size: 130%;
+  }
+
+  @media (max-width: 1200px) {
+    //height: 85vh;
+    background-size: 148%;
+  }
+
+  @media (max-width: 1000px) {
+    //height: 85vh;
+    background-size: 190%;
+  }
+
+  @media (max-width: 768px) {
     //height: 60vh;
     background-image: url("../../../img/dots-hero.svg");
-    background-position: 0% -77%;
-    //height: 90vh;
+    // background-position: 0% -77%;
+    background-position: 6% 0%;
+
     background-size: 100%;
-    background-size: cover;
   }
 
   @media (max-width: 450px) {
-    //background-image: url("../img/dots-hero.svg");
-    //height: 85vh;
-    background-size: contain;
-    background-position: 6% 70%;
+    background-position: 6% 0%;
     //background-size: cover;
   }
 }

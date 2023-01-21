@@ -44,7 +44,27 @@ main {
   background-repeat: no-repeat;
   background-origin: border-box;
 
-  @media (max-width: 550px) {
+  @media (max-width: 1550px) {
+    //height: 85vh;
+    background-size: 105%;
+  }
+
+  @media (max-width: 1400px) {
+    //height: 85vh;
+    background-size: 130%;
+  }
+
+  @media (max-width: 1200px) {
+    //height: 85vh;
+    background-size: 148%;
+  }
+
+  @media (max-width: 1000px) {
+    //height: 85vh;
+    background-size: 190%;
+  }
+
+  @media (max-width: 768px) {
     //height: 60vh;
     background-image: url("../../../img/dots-hero.svg");
     // background-position: 0% -77%;
@@ -62,9 +82,9 @@ main {
 /***********************************Blogs-Boxes-Section**********************************/
 .blog__boxes__section {
   overflow: hidden;
-  padding: 120px 30px 120px;
+  padding: 120px 30px 50px;
   border-bottom: 1px solid rgb(182, 182, 182);
-  min-height: 100vh;
+  min-height: 92vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -73,57 +93,27 @@ main {
   @media (max-width: 768px) {
     padding: 80px 30px 40px;
     gap: 60px;
+    min-height: 70vh;
   }
 }
+
 .blogs__container {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-
-  gap: 40px;
-
-  @media (max-width: 768px) {
-    flex-wrap: wrap;
-  }
-
-  .blog__container-box {
-    width: 400px;
-    padding: 20px;
-    border-radius: 10px;
-    align-items: center;
-    transition: all 0.3s ease-in-out;
-    color: $primary-color;
-    font-size: 18px;
-    font-weight: 900;
-
-    @media (max-width: 550px) {
-      width: 300px;
-    }
-  }
-
   .blog__box {
-    display: flex;
-    flex-direction: column;
     padding: 20px;
     gap: 25px;
-    justify-content: flex-end;
-    align-items: flex-start;
-    text-align: left;
+
     height: 430px;
-    //flex-basis: 30%;
-    max-width: 300px;
-    //min-width: 200px;
+
     color: #ffffff;
     border-radius: 10px;
+  }
 
-    .jump--p {
-      font-weight: 900;
-      border: 3px solid $primary-color;
-      border-radius: 5px;
-      padding: 8px;
-      position: relative;
-    }
+  .jump--p {
+    font-weight: 900;
+    border: 3px solid $primary-color;
+    border-radius: 5px;
+    padding: 8px;
+    position: relative;
   }
 
   .blog__container-box:hover {

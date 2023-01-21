@@ -7,6 +7,10 @@
     <title>Blog</title>
     <link rel="stylesheet" href="scss/style.css" />
     <script src="../../js/index.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
     <!-- Google Tag Manager -->
     <script>
       (function (w, d, s, l, i) {
@@ -99,29 +103,48 @@
     <main>
       <section class="blog__boxes__section">
         <h1 class="main__heading">Blog</h1>
-        <div class="blogs__container">
-          <a class="blog__box" id="blog-box-1" href="#blog-1">
-            <p>Blog #1</p>
-            <h3>How to improve your B2B communication</h3>
-            <p>
-              It is not easy to define B2B communication because it depends on
-              specific long-term and shortterm business goals. Every B2B
-              business has a different business model and stage of development.
-              It has a different structure and organization, goals and
-              priorities.
-            </p>
-            <div class="jump--p button__slide__right">Jump to section</div>
-          </a>
-          <a class="blog__box" id="blog-box-2" href="#blog-1">
-            <p>Blog #2</p>
-            <h3>How to improve your B2B communication</h3>
-            <div class="jump--p button__slide__right">Jump to section</div>
-          </a>
-          <a class="blog__box" id="blog-box-3" href="#blog-1">
-            <p>Blog #3</p>
-            <h3>How to improve your B2B communication</h3>
-            <div class="jump--p button__slide__right">Jump to section</div>
-          </a>
+
+        <div class="swiper mySwiper--smaller--devices">
+          <div class="swiper-wrapper blogs__container">
+            <a class="blog__box swiper-slide" id="blog-box-1" href="#blog-1">
+              <p>Blog #1</p>
+              <h3>How to improve your B2B communication</h3>
+
+              <p class="jump--p button__slide__right">Jump to section</p>
+            </a>
+            <a class="blog__box swiper-slide" id="blog-box-2" href="#blog-1">
+              <p>Blog #2</p>
+              <h3>How to improve your B2B communication</h3>
+              <div class="jump--p button__slide__right">Jump to section</div>
+            </a>
+            <a class="blog__box swiper-slide" id="blog-box-3" href="#blog-1">
+              <p>Blog #3</p>
+              <h3>How to improve your B2B communication</h3>
+              <div class="jump--p button__slide__right">Jump to section</div>
+            </a>
+          </div>
+        </div>
+
+        <div class="swiper mySwiper--bigger--devices blogs__container">
+          <div class="swiper-wrapper">
+            <a class="blog__box swiper-slide" id="blog-box-1" href="#blog-1">
+              <p>Blog #1</p>
+              <h3>How to improve your B2B communication</h3>
+
+              <p class="jump--p button__slide__right">Jump to section</p>
+            </a>
+            <a class="blog__box swiper-slide" id="blog-box-2" href="#blog-1">
+              <p>Blog #2</p>
+              <h3>How to improve your B2B communication</h3>
+              <div class="jump--p button__slide__right">Jump to section</div>
+            </a>
+            <a class="blog__box swiper-slide" id="blog-box-3" href="#blog-3">
+              <p>Blog #3</p>
+              <h3>How to improve your B2B communication</h3>
+              <div class="jump--p button__slide__right">Jump to section</div>
+            </a>
+          </div>
+          <div class="swiper-pagination"></div>
         </div>
       </section>
 
@@ -322,6 +345,55 @@
         </nav>
       </div>
     </footer>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      var swiperBiggerDevices = new Swiper(".mySwiper--bigger--devices", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          "@0.00": {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          "@0.75": {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          "@1.00": {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+          "@1.50": {
+            slidesPerView: 4,
+            spaceBetween: 50,
+          },
+        },
+      });
+
+      var swiperSmallerDevices = new Swiper(".mySwiper--smaller--devices", {
+        grabCursor: true,
+        effect: "creative",
+        creativeEffect: {
+          prev: {
+            shadow: true,
+            origin: "left center",
+            translate: ["-5%", 0, -200],
+            rotate: [0, 100, 0],
+          },
+          next: {
+            origin: "right center",
+            translate: ["5%", 0, -200],
+            rotate: [0, -100, 0],
+          },
+        },
+      });
+    </script>
+
     <!-- Google Tag Manager (noscript) -->
     <noscript
       ><iframe
