@@ -147,30 +147,39 @@ main {
 
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 20px;
+  //justify-content: center;
+  gap: 10px;
   margin-bottom: 10px;
   .swipe__paragrpah {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 900;
   }
 
   .right__arrow {
     width: 50px;
-    //animation: bounce 0.9 none ease-in-out infinite;
-    //transition: all ease-in-out;
+    animation: bounce 1.5s none cubic-bezier(0, 0.25, 0.16, 1) infinite;
   }
 
-  // @keyframes bounce {
-  //   0% {
-  //     transform: translateX(0);
-  //   }
+  @keyframes bounce {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(15px);
+    }
 
-  //   100% {
-  //     transform: translateX(20px);
-  //   }
-  // }
+    50% {
+      transform: translateX(8px);
+    }
+
+    75% {
+      transform: translateX(15px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
 }
 
 /***********************************Blogs-Boxes-Section**********************************/
