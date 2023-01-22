@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog</title>
     <link rel="stylesheet" href="scss/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="../../js/index.js"></script>
     <link
       rel="stylesheet"
@@ -105,8 +106,12 @@
         <h1 class="main__heading">Blog</h1>
 
         <div class="swiper mySwiper--smaller--devices">
-          <div class="swipe__paragrpah__and__arrow__wrapper">
-            <p class="swipe__paragrpah">Swipe for more blogs</p>
+          <div
+            class="swipe__paragrpah__and__arrow__wrapper"
+            data-aos="fade-up"
+            data-aos-easing="ease-in-out"
+          >
+            <p>Swipe for more blogs</p>
             <img
               class="right__arrow"
               src="../../img/right-arrow.png"
@@ -114,7 +119,12 @@
             />
           </div>
 
-          <div class="swiper-wrapper blogs__container">
+          <div
+            class="swiper-wrapper blogs__container"
+            data-aos="fade-up"
+            data-aos-easing="ease-in-out"
+            data-aos-delay="250"
+          >
             <a class="blog__box swiper-slide" id="blog-box-1" href="#blog-1">
               <p>Blog #1</p>
               <h3>How to improve your B2B communication</h3>
@@ -413,13 +423,14 @@
       ></iframe
     ></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <!-- <script src="../../js/index.js" type="module"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init({
-        offset: 200,
+        offset: 300,
         duration: 1000,
+        anchorPlacement: "top-bottom",
+        once: true,
       });
-    </script> -->
+    </script>
   </body>
 </html>
