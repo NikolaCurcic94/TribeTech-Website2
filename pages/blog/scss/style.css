@@ -842,6 +842,8 @@ main {
 }
 .swipe__paragrpah__and__arrow__wrapper .swipe__paragrpah {
   color: #ffffff;
+  font-size: 20px;
+  font-weight: 900;
 }
 .swipe__paragrpah__and__arrow__wrapper .right__arrow {
   width: 50px;
