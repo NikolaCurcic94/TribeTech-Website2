@@ -409,7 +409,7 @@ body {
 }
 @media (max-width: 768px) {
   .mySwiper--smaller--devices {
-    height: 530px;
+    height: 540px;
   }
 }
 .mySwiper--smaller--devices .swiper-slide {

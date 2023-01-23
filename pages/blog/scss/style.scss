@@ -93,7 +93,7 @@ main {
   @media (max-width: 768px) {
     padding: 60px 30px 40px;
     gap: 60px;
-    min-height: 68vh;
+    min-height: 60vh;
   }
 
   .main__heading {
@@ -109,23 +109,24 @@ main {
     gap: 25px;
     height: 430px;
     color: #ffffff;
+    border: 8px solid #3218aaa3;
     border-radius: 10px;
   }
 
   .jump--p {
     font-weight: 900;
-    border: 3px solid $primary-color;
+    border: 5px solid $primary-color;
     border-radius: 5px;
     padding: 8px;
     position: relative;
   }
 
-  .blog__container-box:hover {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-    cursor: pointer;
-  }
+  // .blog__container-box:hover {
+  //   -webkit-transform: scale(1.1);
+  //   -ms-transform: scale(1.1);
+  //   transform: scale(1.1);
+  //   cursor: pointer;
+  // }
 }
 
 #blog-box-1 {
