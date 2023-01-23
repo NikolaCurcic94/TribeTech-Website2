@@ -448,6 +448,7 @@ body {
 }
 .mySwiper--bigger--devices .swiper-pagination {
   position: relative;
+  color: rgb(41, 173, 173);
 }
 .mySwiper--bigger--devices .swiper-slide {
   padding: 20px;
@@ -831,6 +832,14 @@ main {
 
 #blog-box-3 {
   background-color: rgb(62, 138, 134);
+}
+
+#blog-box-4 {
+  background-color: rgb(175, 53, 31);
+}
+
+#blog-box-5 {
+  background-color: rgb(138, 62, 132);
 }
 
 .swipe__paragrpah__and__arrow__wrapper {

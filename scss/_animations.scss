@@ -94,16 +94,13 @@
 /**********************************Swiper*******************************/
 /*****************Smaller devices******************/
 .mySwiper--smaller--devices {
+  max-width: 280px;
   @media (min-width: 769px) {
     display: none;
   }
   @media (max-width: 768px) {
     height: 530px;
   }
-  // margin: 100px auto;
-  max-width: 280px;
-
-  //height: 240px;
 
   .swiper-slide {
     display: flex;
@@ -144,14 +141,13 @@
 
   .swiper-pagination {
     position: relative;
+    color: rgb(41, 173, 173);
   }
 
   .swiper-slide {
     padding: 20px;
     gap: 25px;
-
     height: 430px;
-
     color: #ffffff;
     border-radius: 10px;
 

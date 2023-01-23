@@ -448,6 +448,7 @@ body {
 }
 .mySwiper--bigger--devices .swiper-pagination {
   position: relative;
+  color: rgb(41, 173, 173);
 }
 .mySwiper--bigger--devices .swiper-slide {
   padding: 20px;
