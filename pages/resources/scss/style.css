@@ -448,7 +448,8 @@ body {
 }
 .mySwiper--bigger--devices .swiper-pagination {
   position: relative;
-  color: rgb(41, 173, 173);
+  color: rgb(255, 166, 0);
+  filter: invert(43%) sepia(97%) saturate(394%) hue-rotate(335deg) brightness(91%) contrast(92%);
 }
 .mySwiper--bigger--devices .swiper-slide {
   padding: 20px;

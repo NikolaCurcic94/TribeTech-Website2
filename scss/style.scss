@@ -67,12 +67,8 @@
   font-size: 20px;
   text-align: left;
   line-height: 30px;
-  max-width: 590px; //word-wrap: break-word;
-  //overflow-wrap: break-word;
-  // -webkit-hyphens: auto;
-  // -ms-hyphens: auto;
-  //hyphens: auto;
-  //text-indent: 40px;
+  max-width: 590px;
+
   @media (max-width: 768px) {
     font-size: 18px;
     line-height: 26px;
