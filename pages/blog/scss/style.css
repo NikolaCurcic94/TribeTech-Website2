@@ -813,6 +813,8 @@ main {
 .blogs__container .jump--p {
   font-weight: 900;
   border: 5px solid #0c0c52;
+  background-color: rgb(209, 209, 83);
+  color: #0c0c52;
   border-radius: 5px;
   padding: 8px;
   position: relative;
