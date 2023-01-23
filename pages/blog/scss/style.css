@@ -791,7 +791,7 @@ main {
   .blog__boxes__section {
     padding: 60px 30px 40px;
     gap: 60px;
-    min-height: 60vh;
+    min-height: 68vh;
   }
 }
 @media (max-width: 768px) {
