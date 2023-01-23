@@ -407,6 +407,11 @@ body {
     display: none;
   }
 }
+@media (max-width: 768px) {
+  .mySwiper--smaller--devices {
+    height: 530px;
+  }
+}
 .mySwiper--smaller--devices .swiper-slide {
   display: flex;
   flex-direction: column;
@@ -784,9 +789,9 @@ main {
 }
 @media (max-width: 768px) {
   .blog__boxes__section {
-    padding: 80px 30px 40px;
+    padding: 60px 30px 40px;
     gap: 60px;
-    min-height: 70vh;
+    min-height: 60vh;
   }
 }
 @media (max-width: 768px) {
@@ -831,8 +836,9 @@ main {
 .swipe__paragrpah__and__arrow__wrapper {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 @media (min-width: 769px) {
   .swipe__paragrpah__and__arrow__wrapper {

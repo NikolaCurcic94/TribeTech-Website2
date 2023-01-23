@@ -407,6 +407,11 @@ body {
     display: none;
   }
 }
+@media (max-width: 768px) {
+  .mySwiper--smaller--devices {
+    height: 530px;
+  }
+}
 .mySwiper--smaller--devices .swiper-slide {
   display: flex;
   flex-direction: column;
