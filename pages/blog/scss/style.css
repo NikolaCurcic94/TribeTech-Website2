@@ -892,10 +892,16 @@ main {
 .blog__section .blog__heading {
   margin: 100px auto 150px;
   text-align: left;
+  color: #ffc28c;
 }
 @media (max-width: 768px) {
   .blog__section .blog__heading {
-    margin: 80px auto 50px;
+    margin: 80px auto 30px;
+  }
+}
+@media (max-width: 550px) {
+  .blog__section .blog__heading {
+    margin-bottom: 30px;
   }
 }
 .blog__section p {
@@ -919,6 +925,7 @@ main {
   text-decoration: underline;
   max-width: 800px;
   text-align: left;
+  color: #ffc28c;
 }
 .blog__section ul {
   font-size: 20px;

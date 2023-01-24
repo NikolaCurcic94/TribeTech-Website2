@@ -22,9 +22,6 @@
 
 $font-stack: "Sailec";
 
-// $primary-color: #000066;
-// $secondary-color: #cc6633;
-
 * {
   font-family: $font-stack;
   color: #ffffff;
@@ -122,13 +119,6 @@ main {
     padding: 8px;
     position: relative;
   }
-
-  // .blog__container-box:hover {
-  //   -webkit-transform: scale(1.1);
-  //   -ms-transform: scale(1.1);
-  //   transform: scale(1.1);
-  //   cursor: pointer;
-  // }
 }
 
 #blog-box-1 {
@@ -157,6 +147,7 @@ main {
   justify-content: center;
   gap: 10px;
   margin-bottom: 20px;
+
   .swipe__paragrpah {
     color: #ffffff;
     font-size: 18px;
@@ -203,9 +194,14 @@ main {
   .blog__heading {
     margin: 100px auto 150px;
     text-align: left;
+    color: $light-orange-color;
 
     @media (max-width: 768px) {
-      margin: 80px auto 50px;
+      margin: 80px auto 30px;
+    }
+
+    @media (max-width: 550px) {
+      margin-bottom: 30px;
     }
   }
 
@@ -229,6 +225,7 @@ main {
     text-decoration: underline;
     max-width: 800px;
     text-align: left;
+    color: $light-orange-color;
   }
 
   ul {
