@@ -878,10 +878,17 @@ main {
   font-size: 30px;
   color: rgba(255, 255, 255, 0.6392156863);
   opacity: 0.6;
+  width: 670px;
 }
 @media (max-width: 768px) {
   .hero__section p {
     font-size: 20px;
+    width: 450px;
+  }
+}
+@media (max-width: 550px) {
+  .hero__section p {
+    width: 340px;
   }
 }
 
