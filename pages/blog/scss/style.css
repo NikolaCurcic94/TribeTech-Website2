@@ -219,7 +219,7 @@ body {
 .button {
   padding: 11px;
   border-radius: 5px;
-  background-color: #cc6633;
+  background-color: #e8714a;
   color: #0c0c52;
   border: none;
   font-size: 25px;
@@ -334,7 +334,7 @@ body {
 .scroll-bar-inner {
   position: relative;
   width: 0%;
-  background-color: #cc6633;
+  background-color: #e8714a;
   font-size: 5px;
   color: transparent;
 }
@@ -344,7 +344,7 @@ body {
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  background-color: #cc6633;
+  background-color: #e8714a;
   position: absolute;
   top: 30px;
   transition: all 1s ease-in-out;
@@ -669,7 +669,7 @@ footer {
   width: 100%;
   overflow: hidden;
   padding: 13px 0;
-  background-color: #cc6633;
+  background-color: #e8714a;
 }
 @media (max-width: 450px) {
   footer {
@@ -821,7 +821,7 @@ main {
 }
 
 #blog-box-1 {
-  background-color: #cc6633;
+  background-color: #e8714a;
 }
 
 #blog-box-2 {
